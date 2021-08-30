@@ -1,7 +1,7 @@
 // console.log ("I'm connected")
 
 const apiKey = "a8956cc"
-const omdbUrl = `http://www.omdbapi.com/?apikey=${apiKey}`
+const omdbUrl = `https://www.omdbapi.com/?apikey=${apiKey}`
 
 
 const movieDeckcon = document.querySelector(".movieDeck")
