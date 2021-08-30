@@ -1,0 +1,65 @@
+body{
+    background: linear-gradient(black, grey);
+    color: whitesmoke;
+    font-family: 'Staatliches';
+}
+.mainContain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.movieDeck {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    
+
+}
+img:hover {
+    width: 350px;
+    height: 450px;
+    
+}
+.searchButton {
+    justify-content: center;
+    width: 100px;
+    font-family: 'Staatliches';
+    border: solid black;
+    border-radius: 5px;
+
+}
+.inputField {
+    width: 100px;
+    height: 20px;
+    font-family: 'Staatliches';
+    border: solid black;
+    border-radius: 5px;
+}
+@media screen and (max-width:1029px){
+    .movieDeck {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        
+    
+    }
+    img:hover {
+        width: 350px;
+        height: 450px;
+    }
+}
+@media screen and (max-width:479px){
+    .movieDeck {
+        display: grid;
+        grid-template-columns: 200px;
+        gap: 1rem;
+        
+    
+    }
+    img:hover {
+        width: 350px;
+        height: 450px;
+    }
+}
