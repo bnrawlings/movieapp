@@ -41,6 +41,7 @@ img:hover {
     .movieDeck {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
         gap: 1rem;
         
     
@@ -54,6 +55,7 @@ img:hover {
     .movieDeck {
         display: grid;
         grid-template-columns: 200px;
+        justify-content:center;
         gap: 1rem;
         
     
